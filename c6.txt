@@ -1,6 +1,6 @@
 //file_to_send.txt
 
-//TCPFC.cpp
+//TCPFileClient.cpp
 #include <iostream>
 #include <cstring>
 #include <sys/socket.h>
@@ -77,7 +77,7 @@ int main() {
     return 0;
 }
 
-//TCPFS
+//TCPFileServer.cpp
 
 #include <iostream>
 #include <cstring>
@@ -153,7 +153,7 @@ int main() {
     return 0;
 }
 
-//TCPHC
+//TCPHelloClient.cpp
 
 #include <iostream>
 #include <cstring>
@@ -208,7 +208,7 @@ int main() {
     return 0;
 }
 
-//TCPHS
+//TCPHelloServer.cpp
 
 #include <iostream>
 #include <cstring>      // For memset
